@@ -1,6 +1,6 @@
 {
   "name": "react-randomizer",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "random numbers or randomize array",
   "main": "index.js",
   "scripts": {
