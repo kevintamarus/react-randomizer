@@ -2,9 +2,11 @@
 
 https://www.npmjs.com/package/react-randomizer
 
+## Install
+
 `npm install --save react-randomizer`
 
-example use case:
+##example use cases
 
 `import Randomizer from 'react-randomizer'`
 
@@ -13,3 +15,5 @@ example use case:
 
 
 `Randomizer.randomizeArray(arr)`: randomizes/shuffles array
+
+`Randomizer.diceRoll()`: give you a random number between 2-12(probability consistent with rolling two dice)
