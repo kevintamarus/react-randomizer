@@ -1,11 +1,12 @@
 {
   "name": "react-randomizer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "random numbers or randomize array",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kevin Tamarus Tang",
+  "repository": "https://github.com/kevintamarus/react-randomizer.git",
   "license": "ISC"
 }
