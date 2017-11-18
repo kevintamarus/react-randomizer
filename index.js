@@ -1,7 +1,7 @@
 module.exports = {
   randomNumber: function(num1, num2) {
-    let n1 = num1;
-    let n2 = num2;
+    var n1 = num1;
+    var n2 = num2;
     if(num1 > num2) {
       n1 = num2;
       n2 = num1;
@@ -9,9 +9,9 @@ module.exports = {
     return Math.floor(Math.random() * (n2 - n1 + 1) + n1);
   },
   randomizeArray: function(arr) {
-    let i = arr.length;
-    let current;
-    let random;
+    var i = arr.length;
+    var current;
+    var random;
     while(i !== 0) {
       random = Math.floor(Math.random() * i);
       i--;
