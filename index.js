@@ -1,5 +1,5 @@
 module.exports = {
-  randomNumber: (num1, num2) => {
+  randomNumber: function(num1, num2) {
     let n1 = num1;
     let n2 = num2;
     if(num1 > num2) {
@@ -8,7 +8,7 @@ module.exports = {
     }
     return Math.floor(Math.random() * (n2 - n1 + 1) + n1);
   },
-  randomizeArray: arr => {
+  randomizeArray: function(arr) {
     let i = arr.length;
     let current;
     let random;
@@ -21,7 +21,7 @@ module.exports = {
     }
     return arr;
   },
-  rollDice: () => {
+  rollDice: function() {
     return Math.floor(Math.random() * 6 + 1) + (Math.floor(Math.random() * 6 + 1));
   }
 }
